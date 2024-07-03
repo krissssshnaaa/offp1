@@ -1,0 +1,170 @@
+body{
+    height: 100%;
+    width: 100%;
+margin: 0%;
+padding: 0%;
+
+
+
+}
+
+body{
+    background-color: #8960ff;
+    color: #ffffff;
+} 
+
+
+
+
+
+ #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+    
+    
+    margin: 0 50px; 
+    font-size: medium;
+
+}
+
+   
+
+    
+#box1{
+    
+    margin: 0 50px; 
+    ;
+    height: 30%;
+    font-size:45px;
+    font-family: "DM serif Display"sans-serif;
+    /* font-display:"DM serif Display" ; */
+
+     
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+   
+    
+    
+
+
+}
+#head2{
+    /* background-color: black; */
+    font-size:16px;
+    font-family: "inter"sans-serif;
+
+}
+
+
+
+#box1img{
+    border-radius: 50%;
+    border: solid white;
+    border-width: 15px;
+    margin-left: 25px;
+    margin-top: 50 0px;
+
+
+
+}
+/* #box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+     background-color: black;
+     width: 80%;
+     height: 100%;
+
+     margin: auto;
+     padding: 30px,40px ;
+
+
+
+}
+
+#box2row1{
+    display: flex;
+ 
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+#box2row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding-left: 0px;
+     padding-right: 10px;
+
+
+}
+.box2span{
+    font-size:22px;
+
+    font-family: "DM serif Display" sans-serif;
+
+}
+#box2child1{
+    margin-left: 0px;
+
+} */
+
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: black; */
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding: 20px; /* Adjust as needed for overall padding */
+}
+
+#box2row1, #box2row2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0; /* Adjust vertical padding between rows */
+}
+
+#box2child1, #box2child2, #box2child3, #box2child4 {
+    margin: 0 10px; /* Adjust horizontal spacing between children */
+}
+
+.box2span {
+    font-size: 24px; /* Adjust font size */
+    font-family: "DM Serif Display", sans-serif;
+}
+
+/* Additional adjustments for corner positioning */
+#box2child1, #box2child4 {
+    align-self: flex-start;
+}
+
+#box2child2, #box2child3 {
+    align-self: center;
+}
+
+#box2child1 {
+    margin-right: 50px;
+}
+
+#box2child4 {
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+#box2button{
+    background-color: goldenrod;
+    border-style: round;
+    
+    font-size: large;
+}
